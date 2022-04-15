@@ -53,11 +53,17 @@ header h1 {
     margin-bottom: 10px;
     font-size: 1.5em;
 }
-h2 {
+h3 {
     text-align: center;
     color: aliceblue;
     font-size: 0.9em;
     background-color: #1b24326c;
+}
+h2 {
+    color: aliceblue;
+    background-color: #2C2B3C;
+    width: 200px;
+    border-radius: 5px;
 }
 
 /*NAV*/
@@ -171,12 +177,6 @@ summary {
 summary:hover {
     cursor: pointer;
     opacity: 70%;
-}
-span {
-    color: aliceblue;
-    background-color: #2C2B3C;
-    width: 200px;
-    border-radius: 5px;
 }
 span.info-botao {
     font-size: 0.8em;
