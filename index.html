@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="ViewPort"
+        content="width=device-width, initial-scale=1.0">
+        <title>Lista de Compras</title>
+        <link rel="shortcut icon" href="imagens/list-icon.png">
+        <link rel="stylesheet" href="styles/estilo.css">
+    </head>
+    <body>
+      <header>
+          <h1>LISTA DE COMPRAS <em style="font-size: small; color: silver;">2.0</em></h1>
+      </header>
+
+        <!--LISTA-->
+        <nav>
+            <details>
+                <summary><abbr title="ABRIR LISTA"><img src="imagens/list-icon.png" alt="logo-lista"></abbr><span><abbr title="ABRIR LISTA">LISTA</abbr></span></summary>
+                <table id="lista">
+                    <thead>
+                      <tr>
+                          <th colspan="7">LISTA</th>
+                      </tr>
+                      <tr class="inputs">
+                          <h2>Nome</h2>
+                          <input type="text" placeholder="nome do produto" name="Nome do produto" class="menu">
+                          <h2>Quantidade</h2>
+                          <input type="number" placeholder="quantidade" name="Quantidade do Protudo" class="menu">
+                          <h2>Valor</h2>
+                          <input type="text" placeholder="digite o valor $" name="Valor do Produto" class="menu">
+                          <input type="submit" id="enviar" class="menu">
+                      </tr>
+                      <tr>
+                        <th colspan="4">Produto</th>
+                        <th>Qtd</th>
+                        <th colspan="2">Valor</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="4">nome do produto</td>
+                            <td>000</td>
+                            <td>0.000$</td>
+                            <td class="check"><input type="checkbox" class="checkbox"></td>
+                        </tr>
+                        <tr>
+                        <td colspan="4">nome do produto</td>
+                        <td>000</td>
+                        <td>0.000$</td>
+                        <td class="check"><input type="checkbox" class="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">nome do produto</td>
+                            <td>000</td>
+                            <td>0.000$</td>
+                            <td class="check"><input type="checkbox" class="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">nome do produto</td>
+                            <td>000</td>
+                            <td>0.000$</td>
+                            <td class="check"><input type="checkbox" class="checkbox"></td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th>TOTAL DE ITENS</th>
+                            <td class="valor-total" colspan="2">000</td>
+                            <th colspan="2">VALOR TOTAL</th>
+                            <td class="valor-total" colspan="2">0.000$</td>
+                        </tr>
+                        <tr>
+                            <th colspan="7"><button id="deletar">Deletar Selecionados</button></th>
+                        </tr>
+                    </tfoot>
+                </table>
+            </details>
+            
+                <!--CALCULADORA-->
+                <details>
+            <summary><abbr title="ABRIR CALCULADORA"><img src="imagens/Calculator-icon.png" alt="logo-calculadora"></abbr><span><abbr title="ABRIR CALCULADORA">CALCULADORA</abbr></span></summary>
+                <table id="calculadora">
+                  <thead>
+                    <tr>
+                        <th colspan="5">Calculadora</th>
+                    </tr>
+                    <tr>
+                        <td id="resultado" colspan="4">0</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <th><button class="botao">%</button></th>
+                          <th><button class="botao">C</button></th>
+                          <th colspan="2" id="CE"><button class="botao-CE">CE</button></th>
+                      </tr>
+                      <tr>
+                          <th><button class="botao">+</button></th>
+                          <td><button class="botao">1</button></td>
+                          <td><button class="botao">2</button></td>
+                          <td><button class="botao">3</button></td>
+                      </tr>
+                      <tr>
+                          <th><button class="botao">-</button></th>
+                          <td><button class="botao">4</button></td>
+                          <td><button class="botao">5</button></td>
+                          <td><button class="botao">6</button></td>
+                      </tr>
+                      <tr>
+                          <th><button class="botao">*</button></th>
+                          <td><button class="botao">7</button></td>
+                          <td><button class="botao">8</button></td>
+                          <td><button class="botao">9</button></td>
+                      </tr>
+                      <tr>
+                          <th><button class="botao">/</button></th>
+                          <th><button class="botao">0</button></th>
+                          <td><button class="botao">,</button></td>
+                          <td id="igual"><button class="botao">=</button></td>
+                      </tr>
+                  </tbody>
+                </table>
+                </details>
+        </nav>
+        <footer>
+            <p>CRIADO POR <a href="https://github.com/WELLITOn07"><abbr title="Visite meu Github">WELLITOn07 &copy;</abbr></a></p>
+        </footer>
+</html>
