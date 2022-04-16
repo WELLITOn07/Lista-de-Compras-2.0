@@ -112,6 +112,9 @@ table thead th {
     padding: 5px;
     font-size: larger;
 }
+table thead th.sticky {
+    background-color: #403F4C;
+}
 table tbody  tr {
     background-color: #2C2B3C;
 }
