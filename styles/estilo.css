@@ -82,6 +82,8 @@ input.menu {
     margin-left: 50px;
     margin-bottom: 15px;
     font-weight: bold;
+    background-color: aliceblue;
+    padding: 2px;
 }
 input#enviar {
     margin-top: 20px;
